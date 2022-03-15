@@ -24,6 +24,13 @@ namespace Test
             SalesManager sm = new SalesManager(17,"suresh",40000,2000,1500,1000);
             sm.Calculate_Salary();
             Console.WriteLine(sm);
+
+            Console.WriteLine("***************************");
+            Console.WriteLine("calculation : ");
+            Calculation cal = new Calculation();
+            cal.Add(2,5);
+            Console.WriteLine(cal);
+
         }
     }
 }
